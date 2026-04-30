@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 
 const API_KEY = process.env.OPENWEATHER_KEY;
 const SUPABASE_URL = process.env.SUPABASE_URL;
